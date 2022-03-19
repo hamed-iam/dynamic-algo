@@ -1,0 +1,9 @@
+{
+  "name": "dynamic-algo",
+  "version": "1.0.0",
+  "description": "Algorithmic Problems",
+  "main": "index.js",
+  "repository": "https://github.com/hamed-iam/dynamic-algo",
+  "author": "Hamed Ghazali",
+  "license": "MIT"
+}
