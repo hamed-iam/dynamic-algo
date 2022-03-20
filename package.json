@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "name": "dynamic-algo",
   "version": "1.0.0",

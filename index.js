@@ -1,3 +1,5 @@
-import { fib } from './problems/fib.js';
+import { betterFib } from './problems/fib.js';
+import { twoSums } from './problems/twoSums.js';
 
-console.log('fib :>> ', fib(8));
+// console.log(twoSums([2, 7, 11, 15], 9));
+// console.log('betterFib :>> ', betterFib(8));
