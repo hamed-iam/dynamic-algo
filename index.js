@@ -7,6 +7,7 @@ import { productExceptSelf } from './problems/productArrayExceptSelf.js';
 import { missingNumber } from './problems/missingNumber.js';
 import { findDisappearedNumbers } from './problems/findAllDIsappearedNumbers.js';
 import { singleNumber } from './problems/singleNumber.js';
+import { climbStairs } from './problems/climbingStairs.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -17,4 +18,5 @@ import { singleNumber } from './problems/singleNumber.js';
 // console.log(productExceptSelf([1, 2, 3, 4]));
 // console.log('should be 2', missingNumber([3, 0, 1]));
 // console.log('should be=>[5,6]',findDisappearedNumbers([4,3,2,7,8,2,3,1]))
-console.log('should be 4', singleNumber([4, 1, 2, 1, 2]));
+// console.log('should be 4', singleNumber([4, 1, 2, 1, 2]));
+console.log(climbStairs(10));
