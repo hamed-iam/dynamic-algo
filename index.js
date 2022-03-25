@@ -19,4 +19,4 @@ import { climbStairs } from './problems/climbingStairs.js';
 // console.log('should be 2', missingNumber([3, 0, 1]));
 // console.log('should be=>[5,6]',findDisappearedNumbers([4,3,2,7,8,2,3,1]))
 // console.log('should be 4', singleNumber([4, 1, 2, 1, 2]));
-console.log(climbStairs(10));
+// console.log(climbStairs(10));
