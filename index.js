@@ -21,4 +21,4 @@ import { countBits } from './problems/countingBits.js';
 // console.log('should be=>[5,6]',findDisappearedNumbers([4,3,2,7,8,2,3,1]))
 // console.log('should be 4', singleNumber([4, 1, 2, 1, 2]));
 // console.log(climbStairs(10));
-console.log('should be [0,1,1,2,1,2]',countBits(5));
+// console.log('should be [0,1,1,2,1,2]',countBits(5));
