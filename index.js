@@ -9,6 +9,7 @@ import { findDisappearedNumbers } from './problems/findAllDIsappearedNumbers.js'
 import { singleNumber } from './problems/singleNumber.js';
 import { climbStairs } from './problems/climbingStairs.js';
 import { countBits } from './problems/countingBits.js';
+import { getConcatenation } from './problems/concatenationOfArray.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -22,3 +23,4 @@ import { countBits } from './problems/countingBits.js';
 // console.log('should be 4', singleNumber([4, 1, 2, 1, 2]));
 // console.log(climbStairs(10));
 // console.log('should be [0,1,1,2,1,2]',countBits(5));
+console.log('should be [1,3,2,1,1,3,2,1]', getConcatenation([1, 3, 2, 1]));
