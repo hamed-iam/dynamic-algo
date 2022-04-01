@@ -16,6 +16,7 @@ import { maximumWealth } from './problems/richestCustomerWealth.js';
 import { finalValueAfterOperations } from './problems/finalValueAfrerOp.js';
 import { mostWordsFound } from './problems/maximumNumOfWords.js';
 import { shuffle } from './problems/shuffleArray.js';
+import { numIdenticalPairs } from './problems/numOfGoodPairs.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -35,4 +36,5 @@ import { shuffle } from './problems/shuffleArray.js';
 // console.log('Output: 10',maximumWealth([[1,5],[7,3],[3,5]]))
 // console.log('Output: 1 =>', finalValueAfterOperations(['--X', 'X++', 'X++']));
 // console.log('Output: 6',mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
-console.log('Output: [2,3,5,4,1,7] ==>', shuffle([2, 5, 1, 3, 4, 7], 3));
+// console.log('Output: [2,3,5,4,1,7] ==>', shuffle([2, 5, 1, 3, 4, 7], 3));
+console.log('Output: 4 ==>', numIdenticalPairs([1, 2, 3, 1, 1, 3]));
