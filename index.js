@@ -18,6 +18,8 @@ import { mostWordsFound } from './problems/maximumNumOfWords.js';
 import { shuffle } from './problems/shuffleArray.js';
 import { numIdenticalPairs } from './problems/numOfGoodPairs.js';
 import { kidsWithCandies } from './problems/kidsWithGreatNumOfCandy.js';
+import { smallerNumbersThanCurrent } from './problems/smallerNumbersThanCurrent.js';
+import { decode } from './problems/decodeXORedArr.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -39,4 +41,6 @@ import { kidsWithCandies } from './problems/kidsWithGreatNumOfCandy.js';
 // console.log('Output: 6',mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
 // console.log('Output: [2,3,5,4,1,7] ==>', shuffle([2, 5, 1, 3, 4, 7], 3));
 // console.log('Output: 4 ==>', numIdenticalPairs([1, 2, 3, 1, 1, 3]));
-console.log('[true,true,true,false,true] ==> ',kidsWithCandies([2,3,5,1,3],3))
+// console.log('[true,true,true,false,true] ==> ',kidsWithCandies([2,3,5,1,3],3))
+// console.log('Output: [4,0,1,1,3]', smallerNumbersThanCurrent([8, 1, 2, 2, 3]));
+console.log('Output: [1,0,2,1]', decode([1, 2, 3], 1));
