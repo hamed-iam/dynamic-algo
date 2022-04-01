@@ -14,6 +14,7 @@ import { buildArray } from './problems/buildArrFromPermutation.js';
 import { runningSum } from './problems/runningSumOfArray.js';
 import { maximumWealth } from './problems/richestCustomerWealth.js';
 import { finalValueAfterOperations } from './problems/finalValueAfrerOp.js';
+import { mostWordsFound } from './problems/maximumNumOfWords.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -31,4 +32,5 @@ import { finalValueAfterOperations } from './problems/finalValueAfrerOp.js';
 // console.log('should be [4,5,0,1,2,3]', buildArray([5, 0, 1, 2, 3, 4]));
 // console.log('Output: [3,4,6,16,17]', runningSum([3, 1, 2, 10, 1]));
 // console.log('Output: 10',maximumWealth([[1,5],[7,3],[3,5]]))
-console.log('Output: 1 =>', finalValueAfterOperations(['--X', 'X++', 'X++']));
+// console.log('Output: 1 =>', finalValueAfterOperations(['--X', 'X++', 'X++']));
+console.log('Output: 6',mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
