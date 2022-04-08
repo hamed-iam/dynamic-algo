@@ -21,6 +21,7 @@ import { kidsWithCandies } from './problems/kidsWithGreatNumOfCandy.js';
 import { smallerNumbersThanCurrent } from './problems/smallerNumbersThanCurrent.js';
 import { decode } from './problems/decodeXORedArr.js';
 import { countMatches } from './problems/countItemsMatchingRule.js';
+import { isPalindrome } from './problems/palindromeNumber.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -45,4 +46,6 @@ import { countMatches } from './problems/countItemsMatchingRule.js';
 // console.log('[true,true,true,false,true] ==> ',kidsWithCandies([2,3,5,1,3],3))
 // console.log('Output: [4,0,1,1,3]', smallerNumbersThanCurrent([8, 1, 2, 2, 3]));
 // console.log('Output: [1,0,2,1]', decode([1, 2, 3], 1));
-console.log('Output: 1',countMatches([["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]],"type","phone"))
+// console.log('Output: 1',countMatches([["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]],"type","phone"))
+console.log('Output: true ==>', isPalindrome(121));
+console.log('Output: false ==>', isPalindrome(123));
