@@ -22,6 +22,7 @@ import { smallerNumbersThanCurrent } from './problems/smallerNumbersThanCurrent.
 import { decode } from './problems/decodeXORedArr.js';
 import { countMatches } from './problems/countItemsMatchingRule.js';
 import { isPalindrome } from './problems/palindromeNumber.js';
+import { romanToInt } from './problems/romanToInt.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -47,5 +48,8 @@ import { isPalindrome } from './problems/palindromeNumber.js';
 // console.log('Output: [4,0,1,1,3]', smallerNumbersThanCurrent([8, 1, 2, 2, 3]));
 // console.log('Output: [1,0,2,1]', decode([1, 2, 3], 1));
 // console.log('Output: 1',countMatches([["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]],"type","phone"))
-console.log('Output: true ==>', isPalindrome(121));
-console.log('Output: false ==>', isPalindrome(123));
+// console.log('Output: true ==>', isPalindrome(121));
+// console.log('Output: false ==>', isPalindrome(123));
+console.log('Output: 3',romanToInt("III"))
+console.log('Output: 58',romanToInt("LVIII"))
+console.log('Output: 1994',romanToInt("MCMXCIV"))
