@@ -23,6 +23,8 @@ import { decode } from './problems/decodeXORedArr.js';
 import { countMatches } from './problems/countItemsMatchingRule.js';
 import { isPalindrome } from './problems/palindromeNumber.js';
 import { romanToInt } from './problems/romanToInt.js';
+import { longestCommonPrefix } from './problems/longestCommonPrefix.js';
+import { removeElement } from './problems/removeElement.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -50,6 +52,8 @@ import { romanToInt } from './problems/romanToInt.js';
 // console.log('Output: 1',countMatches([["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]],"type","phone"))
 // console.log('Output: true ==>', isPalindrome(121));
 // console.log('Output: false ==>', isPalindrome(123));
-console.log('Output: 3',romanToInt("III"))
-console.log('Output: 58',romanToInt("LVIII"))
-console.log('Output: 1994',romanToInt("MCMXCIV"))
+// console.log('Output: 3',romanToInt("III"))
+// console.log('Output: 58',romanToInt("LVIII"))
+// console.log('Output: 1994',romanToInt("MCMXCIV"))
+// console.log('Output: fl', longestCommonPrefix(['flower', 'flow', 'flight']));
+console.log('output: 5', removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2));
