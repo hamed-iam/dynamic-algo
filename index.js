@@ -25,6 +25,7 @@ import { isPalindrome } from './problems/palindromeNumber.js';
 import { romanToInt } from './problems/romanToInt.js';
 import { longestCommonPrefix } from './problems/longestCommonPrefix.js';
 import { removeElement } from './problems/removeElement.js';
+import { lengthOfLastWord } from './problems/lengthOfLastWord.mjs';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -56,4 +57,5 @@ import { removeElement } from './problems/removeElement.js';
 // console.log('Output: 58',romanToInt("LVIII"))
 // console.log('Output: 1994',romanToInt("MCMXCIV"))
 // console.log('Output: fl', longestCommonPrefix(['flower', 'flow', 'flight']));
-console.log('output: 5', removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2));
+// console.log('output: 5', removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2));
+// console.log('output: 5', lengthOfLastWord('Hello World'));
