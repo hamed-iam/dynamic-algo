@@ -29,6 +29,7 @@ import { lengthOfLastWord } from './problems/lengthOfLastWord.mjs';
 import { isValid } from './problems/validParantheses.js';
 import { removeDuplicates } from './problems/removeDupFromSortedArr.js';
 import { plusOne } from './problems/plusOne.js';
+import { merge } from './problems/mergeSortedArr.js';
 
 // console.log(twoSums([2, 7, 11, 15], 9));
 // console.log('betterFib :>> ', betterFib(8));
@@ -67,4 +68,5 @@ import { plusOne } from './problems/plusOne.js';
 // console.log('output:2', removeDuplicates([1,1,2]));
 // console.log('Output: [4,3,2,2]', plusOne([4, 3, 2, 1]));
 // console.log('Output: [1,0]', plusOne([9]));
-console.log('Output: [6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,4]', plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]));
+// console.log('Output: [6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,4]', plusOne([6,1,4,5,3,9,0,1,9,5,1,8,6,7,0,5,5,4,3]));
+console.log('Output: [1,2,2,3,5,6]',merge([1,2,3,0,0,0],3,[2,5,6],3))
