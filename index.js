@@ -31,6 +31,7 @@
 // import { plusOne } from './problems/plusOne.js';
 // import { merge } from './problems/mergeSortedArr.js';
 // import { numJewelsInStones } from './problems/jewelsAndStones.js';
+import { numberOfSteps } from "./problems/numOfSteps.js";
 import { subtractProductAndSum } from "./problems/subAndProductDigits.js";
 
 // console.log(twoSums([2, 7, 11, 15], 9));
@@ -74,4 +75,5 @@ import { subtractProductAndSum } from "./problems/subAndProductDigits.js";
 // console.log('Output: [1,2,2,3,5,6]',merge([1,2,3,0,0,0],3,[2,5,6],3))
 // console.log('Output: 3 ==>', numJewelsInStones('z', 'ZZ'));
 // console.log('Output: 3 ==>', numJewelsInStones('aA', 'aAAbbbb'));
-console.log("output: 15", subtractProductAndSum(234));
+// console.log("output: 15", subtractProductAndSum(234));
+console.log("Output: 6", numberOfSteps(14));
