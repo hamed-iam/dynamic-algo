@@ -35,6 +35,7 @@ import { balancedStringSplit } from "./problems/balancedString.js";
 import { minimumSum } from "./problems/minimumSum.js";
 import { numberOfSteps } from "./problems/numOfSteps.js";
 import { restoreString } from "./problems/shuffleString.js";
+import { sortSentence } from "./problems/sortSentence.js";
 import { subtractProductAndSum } from "./problems/subAndProductDigits.js";
 
 // console.log(twoSums([2, 7, 11, 15], 9));
@@ -82,4 +83,5 @@ import { subtractProductAndSum } from "./problems/subAndProductDigits.js";
 // console.log("Output: 6", numberOfSteps(14));
 // console.log("output: 52", minimumSum(2932));
 // console.log("output: leetcode", restoreString("codeleet",[4,5,6,7,0,2,1,3]));
-console.log("output: 4", balancedStringSplit("RLRRLLRLRL"));
+// console.log("output: 4", balancedStringSplit("RLRRLLRLRL"));
+console.log("output:This is a sentence",sortSentence("is2 sentence4 This1 a3"));
